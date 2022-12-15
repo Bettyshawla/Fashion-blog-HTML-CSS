@@ -44,6 +44,8 @@ h3 {
   color: #df4239;
   float: right;
   font-size: larger;
+  font-weight: bold;
+  text-decoration: none;
  
 }
 
@@ -61,25 +63,26 @@ a {
 }
 
 img {
-  width: 73vw;
+  width: 100%;
 }
 
 #par {
   color: #829696;
   font-size: x-large;
-  width: 73vw;
-  initial-letter: 3;
+  width: 100%;
+  /* initial-letter: 3; */
   margin-left: 0;
 }
 
 .first-div {
-    border-bottom: 2px lightgray solid;
-    margin-bottom: 10%;
+    border-bottom: 1px lightgray solid;
+    padding-bottom: 2px;
+
 }
 
 .second-div{
-    border-bottom: 2px lightgray solid;
-    margin-bottom: 4%;
+    border-bottom: 1px lightgray solid;
+    padding-bottom: 2px;
 }
 
 #navbar{
@@ -99,3 +102,6 @@ footer p {
     margin-bottom: 8%;
 }
 
+article{
+  margin-bottom: 4rem;
+}
